@@ -20,7 +20,7 @@ export default function SearchBar({ autoFocus = false }) {
     )
 
     if (!match) {
-      setError(`No story found for "${trimmed}". Try SS001 – SS006.`)
+      setError(`No story found for "${trimmed}". Try SS101.`)
       return
     }
 
